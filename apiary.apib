@@ -536,6 +536,17 @@ Get details for a single user.
             + function: `Sales` (string)
             + time_zone: `Europe/Brussels` (string)
 
+### users.invite [GET /users.invite]
+
+Invite a single user to your account
+
++ Request (application/json)
+
+    + Attributes (object)
+        + email: `john@teamleader.eu` (string, required)
+
++ Response 204
+
 ## Custom Fields [/customFieldDefinitions]
 
 Custom fields are used to add additional data/properties to entities within Teamleader.
